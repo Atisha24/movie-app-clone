@@ -1,0 +1,71 @@
+.not-found-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url('https://res.cloudinary.com/atisha/image/upload/v1669028236/Not_found_svqxsg.png');
+  min-height: 100vh;
+  background-size: cover;
+  overflow-y: auto;
+  margin: auto;
+}
+
+.not-found-heading {
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #ffffff;
+  text-align: center;
+  margin: 10px 0px;
+}
+
+.not-found-description {
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  text-align: center;
+  color: #ffffff;
+  margin: 10px 0px;
+}
+
+.not-found-home-btn {
+  padding: 8px 24px;
+  gap: 8px;
+  width: 127px;
+  height: 40px;
+  background: #ffffff;
+  border-radius: 4px;
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  color: #171f46;
+  outline: none;
+  border: none;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .not-found-heading {
+    font-size: 96px;
+    line-height: 125px;
+  }
+
+  .not-found-description {
+    font-size: 24px;
+    line-height: 31px;
+  }
+
+  .not-found-home-btn {
+    padding: 12px 24px;
+    height: 48px;
+    font-size: 16px;
+    line-height: 24px;
+  }
+}

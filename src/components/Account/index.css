@@ -1,0 +1,181 @@
+.account-container {
+  background-color: #131313;
+}
+
+.account-details-container {
+  background-color: #e5e5e5;
+  /* min-height: 70vh; */
+  padding: 30px 30px;
+}
+
+.account-heading {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 47px;
+  color: #131313;
+}
+
+.horizontal-line {
+  background: #cbd5e1;
+  border-radius: 10px;
+  border: 1px solid #cbd5e1;
+}
+
+.membership-container {
+  display: flex;
+  padding: 15px 0px;
+}
+
+.membership-heading {
+  color: #94a3b8;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 23.45px;
+  margin-right: 10px;
+}
+
+.email {
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 31px;
+  color: #1e293b;
+}
+
+.password {
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 31px;
+  color: #64748b;
+}
+
+.membership-plan-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 0px;
+}
+
+.plan-details {
+  color: #94a3b8;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 31px;
+}
+
+.premium {
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 31px;
+  color: #1e293b;
+}
+
+.ultra-hd {
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 23px;
+  color: #1e293b;
+  border: 3px solid #1e293b;
+  padding: 2px 5px;
+  border-radius: 2px;
+}
+
+.logout-container {
+  margin-top: 30px;
+  padding: 20px;
+  text-align: center;
+}
+
+.logout {
+  padding: 8px 20px;
+  background: #e50914;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  color: #ffffff;
+}
+
+@media screen and (min-width: 768px) {
+  .account-details-container {
+    padding: 30px 100px;
+    min-height: 70.7vh;
+    background-color: #e5e5e5;
+  }
+  .account-heading {
+    color: #131313;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 46.91px;
+  }
+  .horizontal-line {
+    border: 1px solid #cbd5e1;
+    background: #cbd5e1;
+    border-radius: 10px;
+  }
+  .membership-container {
+    padding: 15px 0px;
+    display: flex;
+  }
+  .membership-heading {
+    color: #94a3b8;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 31.27px;
+    margin-right: 30px;
+  }
+  .email {
+    color: #1e293b;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 31.27px;
+  }
+  .password {
+    color: #64748b;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 31.27px;
+  }
+  .membership-plan-container {
+    display: flex;
+    padding: 30px 0px;
+  }
+  .plan-details {
+    color: #94a3b8;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 31.27px;
+    margin-right: 30px;
+  }
+  .premium {
+    color: #1e293b;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 31.27px;
+    margin-right: 30px;
+  }
+  .ultra-hd {
+    color: #1e293b;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23.45px;
+    margin-right: 30px;
+    border: 3px solid #1e293b;
+    padding: 5px 10px;
+    border-radius: 2px;
+  }
+  .logout-container {
+    margin-top: 30px;
+    padding: 20px;
+    text-align: center;
+  }
+}

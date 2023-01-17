@@ -1,0 +1,112 @@
+.login-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #131313;
+  margin: auto;
+  height: 100vh;
+}
+
+@media screen and (min-width: 728px) {
+  .login-container {
+    background-image: url('https://res.cloudinary.com/atisha/image/upload/v1668599271/netfilx_1_appl6z.png');
+    background-size: cover;
+  }
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 350px;
+  background-color: rgba(0, 0, 0, 0.7);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+@media screen and (min-width: 728px) {
+  .form-container {
+    width: 350px;
+    flex-shrink: 0;
+    box-shadow: 0px 8px 40px rgba(7, 7, 7, 0.08);
+    padding: 64px 48px 64px 48px;
+  }
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.input-label {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  color: #ffffff;
+  letter-spacing: 0.01em;
+}
+
+.input-field {
+  background-color: #333333;
+  height: 40px;
+  font-family: 'Roboto';
+  font-size: 14px;
+  width: 100%;
+  margin-top: 5px;
+  padding: 8px 16px 8px 16px;
+  outline: none;
+  color: #64748b;
+}
+
+.login-website-logo {
+  align-self: flex-start;
+  width: 100px;
+  margin-bottom: 200px;
+  margin-left: 30px;
+}
+
+.login-text {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 40px;
+  color: #ffffff;
+  align-self: flex-start;
+}
+
+.login-button {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  font-family: 'Roboto';
+  color: #ffffff;
+  height: 40px;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 2px;
+  background-color: #e50914;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.login-error-msg {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #dc2626;
+  align-self: flex-start;
+  font-size: 12px;
+  margin-top: 3px;
+  margin-bottom: 0px;
+  font-family: 'Roboto';
+}

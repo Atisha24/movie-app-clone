@@ -1,0 +1,130 @@
+.movie-detail-additional-info-container {
+  background-color: #131313;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 50px;
+}
+
+.movie-items-details-container {
+  padding: 20px;
+}
+
+.movie-details-container {
+  background-color: #131313;
+}
+
+@media screen and (max-width: 568px) {
+  .movie-detail-additional-info-container {
+    flex-wrap: wrap;
+    padding: 10px;
+    margin-top: -380px;
+  }
+
+  .heading {
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .movie-info {
+    font-size: 12px;
+    line-height: 20px;
+  }
+
+  .similar-movie-container {
+    padding: 10px;
+  }
+
+  .more-like-this {
+    font-size: 20px;
+    line-height: 26px;
+  }
+}
+
+.genre-list-container,
+.rating-count-average-container,
+.budget-release-date-container {
+  padding: 10px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.genre-list-item {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.heading {
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 26px;
+  color: #94a3b8;
+}
+
+.movie-info {
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.date-end,
+.month-name {
+  margin-right: 5px;
+}
+
+.similar-movie-container {
+  background-color: #131313;
+  padding: 40px;
+}
+
+.more-like-this {
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 24px;
+  line-height: 31px;
+}
+
+.similar-movie-list-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+
+.similar-movie-list-item {
+  margin: 10px;
+  border: 1px solid transparent;
+  border-radius: 8px;
+}
+
+.poster-path {
+  height: 80px;
+  width: 80px;
+}
+
+.movie-items-details-container {
+  background-color: #0f0f0f;
+}
+
+.video-details-view-container {
+  overflow-y: auto;
+  background-color: #0f0f0f;
+}

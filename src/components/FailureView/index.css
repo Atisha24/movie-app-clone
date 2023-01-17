@@ -1,0 +1,41 @@
+.failed-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000;
+  padding: 30px;
+  min-height: 100%;
+}
+
+.failed-view-image {
+  width: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .failed-view-image {
+    width: 50px;
+  }
+}
+
+.failed-description {
+  font-family: 'Roboto';
+  font-size: 25px;
+  color: #f1f5f9;
+  text-align: center;
+}
+
+.try-again-btn {
+  border: none;
+  background-color: #4f46e5;
+  border-radius: 3px;
+  color: #ffffff;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-family: Roboto;
+  font-size: 15px;
+  cursor: pointer;
+  margin-top: 10px;
+}

@@ -1,0 +1,43 @@
+.popular-movies-list-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin: 0px;
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.popular-movie-list-item {
+  padding: 5px;
+  list-style-type: none;
+}
+
+.popular-movie-poster {
+  height: 100px;
+  width: 90px;
+  border-radius: 6px;
+}
+
+.popular-movies-container {
+  background-color: #131313;
+}
+
+.popular-movies {
+  padding: 10px;
+  height: 100vh;
+}
+
+@media screen and (min-width: 768px) {
+  .popular-movie-poster {
+    height: 250px;
+    width: 180px;
+    border-radius: 8px;
+  }
+
+  .popular-movie-list-item {
+    padding: 10px;
+  }
+}
